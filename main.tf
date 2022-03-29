@@ -10,7 +10,7 @@ terraform {
 
 provider "aws" {
        # region = "us-east-1" 
-        profile = "default"
+        #profile = "default"
 	}
 
 resource "aws_instance" "Nareshinfra" {
