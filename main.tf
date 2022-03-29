@@ -15,5 +15,6 @@ provider "aws" {
 
 resource "aws_instance" "Nareshinfra" {
 	ami = "ami-0c02fb55956c7d316"
+	count = 2
 	instance_type = "t2.micro"
 }
